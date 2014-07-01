@@ -1,0 +1,118 @@
+#social_img_cont{
+	position: absolute;
+	z-index: 99999;
+	margin: 5px;
+}
+
+.social_img_div{
+	height: 40px;
+}
+
+.style_fordiv{
+	padding: 10px;
+	display: none;
+	background: none repeat scroll 0 0 padding-box rgba(255, 255, 255, 0.98);
+    border: 1px solid rgba(100, 100, 100, 0.4);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+	width: 330px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+svg {
+    height: 30px;
+    width: 50px;
+}
+
+.ui-tooltip-top{
+  color:#ffffff;
+  margin-top:10px;
+  cursor:normal;
+  display:none;
+  font-size:12px;
+  margin-top: 3px;
+  font-family:arial;
+  padding:.5em 0em;
+  text-align:center;
+  text-shadow:0 -1px 1px #111111;
+  -webkit-border-top-left-radius:4px ;
+  -webkit-border-top-right-radius:4px ;
+  -webkit-border-bottom-right-radius:4px ;
+  -webkit-border-bottom-left-radius:4px ;
+  -khtml-border-top-left-radius:4px ;
+  -khtml-border-top-right-radius:4px ;
+  -khtml-border-bottom-right-radius:4px ;
+  -khtml-border-bottom-left-radius:4px ;
+  -moz-border-radius-topleft:4px ;
+  -moz-border-radius-topright:4px ;
+  -moz-border-radius-bottomright:4px ;
+  -moz-border-radius-bottomleft:4px ;
+  border-top-left-radius:4px ;
+  border-top-right-radius:4px ;
+  border-bottom-right-radius:4px ;
+  border-bottom-left-radius:4px ;
+  -o-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  -moz-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  -khtml-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  -webkit-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  background-color:#3b3b3b;
+  background-image:-moz-linear-gradient(top,#555555,#222222);
+  background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#555555),color-stop(1,#222222));
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#555555,EndColorStr=#222222);
+  -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#555555,EndColorStr=#222222);
+}
+.toparrow{
+  background: url("../images/notch-dark_up.png") no-repeat scroll 0 0 transparent;
+  
+  height:14px;
+  width:60px;
+  margin-top:-20px;
+  
+}
+
+#images_div{
+	position: absolute;
+	top: 50px;
+	z-index: 999;
+	width: 48%;
+	left: 25%;
+	padding: 20px;
+	box-shadow: 0px 0px 16px #ffffff;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 6px;
+	display: none;
+	background-color: #000000
+}
+
+#mask{
+	top: 0px;
+	position: absolute;
+	background-color: rgb(12, 12, 12);
+	opacity: 0.8;
+	width: 100%;
+	display: none;
+	height: 100%;
+}
+
+.image_unselected{
+	border: 1px solid white;
+	margin-left: 10px;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 6px;
+}
+
+.image_selected{
+	border: 1px solid white;
+	margin-left: 10px;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 6px;
+	background-color: #FFFFFF;
+}

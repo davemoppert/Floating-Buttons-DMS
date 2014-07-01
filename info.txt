@@ -1,0 +1,10 @@
+=== FLOATING SOCIAL BUTTONS ===
+== Description ==
+Get Social! Pick from a ton of social icons OR upload your own custom icon!  These icons also have an added feature of a popover to let your visitor learn a little bit about your social button before clicking on it!  
+
+
+== Changelog ==
+
+= 1.0 =
+
+* Initial release
